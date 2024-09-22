@@ -24,7 +24,8 @@ fetchPicsBtn.addEventListener('click', event => {
           titleColor: '#FFFFFF',
           message:
             ' Sorry, there are no images matching your search query. Please, try again!',
-          iconUrl: '../img/bi_x-octagon.svg',
+          iconUrl:
+            'https://raw.githubusercontent.com/versroot/goit-js-hw-11/refs/heads/main/src/img/bi_x-octagon.svg',
           backgroundColor: '#EF4040',
           messageColor: '#FFFFFF',
           close: true,
@@ -48,7 +49,8 @@ fetchPicsBtn.addEventListener('click', event => {
 function closeX(instance, toast) {
   var closeButton = toast.querySelector('.iziToast-close');
   closeButton.style.backgroundColor = 'transparent'; //
-  closeButton.style.backgroundImage = "url('../img/bi_x-lg.svg')";
+  closeButton.style.backgroundImage =
+    "url('https://raw.githubusercontent.com/versroot/goit-js-hw-11/refs/heads/main/src/img/bi_x-lg.svg')";
   closeButton.style.backgroundSize = 'contain';
   closeButton.style.width = '16px';
   closeButton.style.height = '16px';
